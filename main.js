@@ -1,0 +1,10 @@
+var fruits=["mango","banna","appel"];
+fruits.push("orange");
+fruits.pop();
+fruits.unshift("orange");
+console.log(fruits);
+document.getElementById("ex1").innerHTML=fruits;
+var number=["1","9","5"];
+var maximum=Math.max.apply(Math,number);
+console.log(maximum);
+document.getElementById("ex2").innerHTML=maximum;
